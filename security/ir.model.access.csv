@@ -1,7 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_product_ada_location_user,product.ada.location user,model_product_ada_location,base.group_user,1,0,0,0
 access_product_ada_location_stock_user,product.ada.location stock user,model_product_ada_location,stock.group_stock_user,1,1,1,0
-# product.ada.location.movement: solo lectura intencional para todos los usuarios internos.
-# Los permisos create/write/unlink se agregarán en el proyecto de operaciones externo,
-# cuando se defina el usuario o API key que escribirá en esta bitácora.
 access_product_ada_location_movement_user,product.ada.location.movement user,model_product_ada_location_movement,base.group_user,1,0,0,0

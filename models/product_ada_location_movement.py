@@ -9,6 +9,9 @@ class ProductAdaLocationMovement(models.Model):
     # La lógica de negocio que genera movimientos (confirmaciones de entradas, salidas,
     # ajustes) vive en el proyecto de operaciones externo. Este módulo solo define el
     # esquema de la bitácora y los permisos de lectura; la escritura ocurre desde fuera.
+    # Permisos: ir.model.access.csv solo otorga lectura a base.group_user intencionalmente —
+    # los permisos create/write/unlink se agregarán en el proyecto de operaciones externo,
+    # cuando se defina el usuario o API key que escribirá en esta bitácora.
     _rec_name = 'location'
 
     location_entry_id = fields.Many2one(
