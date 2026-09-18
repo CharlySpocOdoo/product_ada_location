@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_ada_location_user,product.ada.location user,model_product_ada_location,base.group_user,1,0,0,0
+access_product_ada_location_stock_user,product.ada.location stock user,model_product_ada_location,stock.group_stock_user,1,1,1,0
+access_product_ada_location_movement_user,product.ada.location.movement user,model_product_ada_location_movement,base.group_user,1,0,0,0
