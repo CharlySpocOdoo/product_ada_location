@@ -11,6 +11,7 @@ class ProductAdaLocation(models.Model):
         comodel_name='product.product',
         string='Producto',
         required=True,
+        ondelete='restrict',
     )
     location = fields.Char(
         string='Ubicacion',
