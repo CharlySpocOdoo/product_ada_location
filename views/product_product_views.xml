@@ -12,7 +12,6 @@
                             <field name="location"/>
                             <field name="quantity" sum="Cantidad total"/>
                             <field name="date"/>
-                            <field name="active"/>
                         </list>
                     </field>
                 </page>

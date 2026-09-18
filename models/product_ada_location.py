@@ -25,7 +25,3 @@ class ProductAdaLocation(models.Model):
         required=True,
         default=fields.Date.today,
     )
-    active = fields.Boolean(
-        string='Activo',
-        default=True,
-    )
