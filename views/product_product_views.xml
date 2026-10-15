@@ -10,6 +10,7 @@
                     <field name="ada_location_ids" nolabel="1">
                         <list editable="bottom">
                             <field name="location"/>
+                            <field name="folio_caja"/>
                             <field name="quantity" sum="Cantidad total"/>
                             <field name="date"/>
                         </list>

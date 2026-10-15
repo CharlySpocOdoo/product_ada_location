@@ -17,6 +17,9 @@ class ProductAdaLocation(models.Model):
         string='Ubicacion',
         required=True,
     )
+    folio_caja = fields.Char(
+        string='Folio de caja',
+    )
     quantity = fields.Float(
         string='Cantidad',
         required=True,
